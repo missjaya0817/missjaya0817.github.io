@@ -1,0 +1,18 @@
+.home-header-wrapper-bg {
+    content: "";
+    background: #fff url(../img/Portfolio-Cover.png) center center no-repeat fixed;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 0;
+    animation: bg-zoom 30s infinite alternate ease-in-out;
+    -webkit-animation: bg-zoom 30s infinite alternate ease-in-out;
+}
+
+.home-header-container {
+    position: fixed;
+    z-index: 2;
+}
