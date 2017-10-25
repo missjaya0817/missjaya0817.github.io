@@ -526,7 +526,7 @@ a.logo:hover {
    ================================================== */
 
 #intro {
-    background: url("../images/Portfolio-Cover.png") center center no-repeat fixed;
+    background: url("images/Portfolio-Cover.png") center center no-repeat fixed;
     background-size: cover;
     min-height: 1000px;
     width:100%;
