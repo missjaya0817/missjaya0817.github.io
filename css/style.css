@@ -1,6 +1,6 @@
 body {
     color: #464B52;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arvo', serif;
     font-weight: 400;
     line-height: 32px;
     -webkit-font-smoothing: antialiased;
@@ -45,9 +45,10 @@ h4,
 h5,
 h6 {
     font-family: 'Roboto', sans-serif;
-    color: #464B52;
+    /*color: #464B52;*/
+    color:white;
     margin: 0;
-    font-weight:bold;
+    font-weight:400;
 }
 
 video {
@@ -80,7 +81,7 @@ p {
 
 h1,
 .h1 {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 36px;
     line-height: 48px;
 }
@@ -88,7 +89,7 @@ h1,
 
 h2,
 .h2 {
-    font-weight: 400;
+    font-weight: 700;
     font-size: 32px;
     line-height: 48px;
     position: relative;
@@ -186,7 +187,7 @@ h3 {
 }
 .space {
 /*     padding-bottom: 20px; */
-    padding-top: 204px;
+    padding-top: 450px;
 }
 
 /* SOCIAL ICONS
@@ -525,7 +526,10 @@ a.logo:hover {
    ================================================== */
 
 #intro {
-    background: url("../images/Portfolio-Cover.png");
+    background: url("../images/Portfolio-Cover.png") center center no-repeat fixed;
+    background-size: cover;
+    min-height: 1000px;
+    width:100%;
 }
 .service-wrap {
     /* border: 2px solid #1c2334; ! Used for more retro look,try it */
@@ -2079,11 +2083,11 @@ ul.dashed li{ text-indent:-5px; }
 
 
 .project-bg-1 {
-    background-color: #5AC5D1;
+    background-color: white;
 }
 
 .project-bg-2 {
-    background-color: #FFA9AA;
+    background-color: #F4F5F5;
 }
 
 .project-bg-3 {
@@ -2145,6 +2149,7 @@ ul.dashed li{ text-indent:-5px; }
     max-height: 100%;
     margin-top: 32px;
     margin-left: -8px;
+    padding-left: 50px;
 }
 
 .project-item .text-wrapper {
@@ -2305,25 +2310,25 @@ ul.dashed li{ text-indent:-5px; }
     }
 
     .project-bg-1 {
-        height: 640px;
+        height: 720px;
     }
 
     .project-item .left-wrapper.col-sm-7 {
-        width: 552px;
+        width: 450px;
         padding: 0;
-        margin-left: 96px;
+        margin-left: 80px;
         margin-right: 12px;
     }
 
     .project-item .right-wrapper.col-sm-5 {
-        width: 620px;
-        padding: 0;
+        width: 600px;
+        padding-left: 100px;
     }
 
     #intro .col-sm-7 {
         padding: 0;
         margin-left: 96px;
-        width: 659px;
+        width: 500px;
     }
 
     .project-item .right-wrapper {
@@ -2332,7 +2337,7 @@ ul.dashed li{ text-indent:-5px; }
     }
 
     .project-item .right-wrapper img {
-        // margin-left: 0;
+        margin-right:150px;
         position: absolute;
         bottom: 0;
         right: 0;
@@ -2407,21 +2412,20 @@ ul.dashed li{ text-indent:-5px; }
     }
 
 }
+
+
 .container{
-    width:90%;
+    width:90%!important;
 }
 
 .project-item .right-wrapper{
     float:right;
-    width:550px;
+    /*padding-left: 100px;*/
+    width:700px;
 }
 
-.well, .well-lg{
-    background: red; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#0A79C7, #85C5F4); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#0A79C7, #85C5F4); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#0A79C7, #85C5F4); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#0A79C7, #85C5F4); /* Standard syntax */
-}
-}
+.project-item.left-wrapper.col-sm-7{
+    margin-left: 70px;
+    width:450px;
 
+}
