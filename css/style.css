@@ -1,6 +1,6 @@
 body {
     color: #464B52;
-    font-family: 'Arvo', serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     line-height: 32px;
     -webkit-font-smoothing: antialiased;
@@ -45,10 +45,9 @@ h4,
 h5,
 h6 {
     font-family: 'Roboto', sans-serif;
-    /*color: #464B52;*/
-    color:white;
+    color: #464B52;
     margin: 0;
-    font-weight:400;
+    font-weight:bold;
 }
 
 video {
@@ -81,7 +80,7 @@ p {
 
 h1,
 .h1 {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 36px;
     line-height: 48px;
 }
@@ -89,7 +88,7 @@ h1,
 
 h2,
 .h2 {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 32px;
     line-height: 48px;
     position: relative;
@@ -187,7 +186,7 @@ h3 {
 }
 .space {
 /*     padding-bottom: 20px; */
-    padding-top: 450px;
+    padding-top: 204px;
 }
 
 /* SOCIAL ICONS
@@ -526,10 +525,7 @@ a.logo:hover {
    ================================================== */
 
 #intro {
-    background: url("../images/Portfolio-Cover.png") center center no-repeat fixed;
-    background-size: cover;
-    min-height: 1000px;
-    width:100%;
+    background: url("../images/bg.png");
 }
 .service-wrap {
     /* border: 2px solid #1c2334; ! Used for more retro look,try it */
@@ -2083,11 +2079,11 @@ ul.dashed li{ text-indent:-5px; }
 
 
 .project-bg-1 {
-    background-color: white;
+    background-color: #5AC5D1;
 }
 
 .project-bg-2 {
-    background-color: #F4F5F5;
+    background-color: #FFA9AA;
 }
 
 .project-bg-3 {
@@ -2149,7 +2145,6 @@ ul.dashed li{ text-indent:-5px; }
     max-height: 100%;
     margin-top: 32px;
     margin-left: -8px;
-    padding-left: 50px;
 }
 
 .project-item .text-wrapper {
@@ -2310,25 +2305,25 @@ ul.dashed li{ text-indent:-5px; }
     }
 
     .project-bg-1 {
-        height: 720px;
+        height: 640px;
     }
 
     .project-item .left-wrapper.col-sm-7 {
-        width: 450px;
+        width: 552px;
         padding: 0;
-        margin-left: 80px;
+        margin-left: 96px;
         margin-right: 12px;
     }
 
     .project-item .right-wrapper.col-sm-5 {
-        width: 600px;
-        padding-left: 100px;
+        width: 620px;
+        padding: 0;
     }
 
     #intro .col-sm-7 {
         padding: 0;
         margin-left: 96px;
-        width: 500px;
+        width: 659px;
     }
 
     .project-item .right-wrapper {
@@ -2337,7 +2332,7 @@ ul.dashed li{ text-indent:-5px; }
     }
 
     .project-item .right-wrapper img {
-        margin-right:150px;
+        // margin-left: 0;
         position: absolute;
         bottom: 0;
         right: 0;
@@ -2412,20 +2407,21 @@ ul.dashed li{ text-indent:-5px; }
     }
 
 }
-
-
 .container{
-    width:90%!important;
+    width:90%;
 }
 
 .project-item .right-wrapper{
     float:right;
-    /*padding-left: 100px;*/
-    width:700px;
+    width:550px;
 }
 
-.project-item.left-wrapper.col-sm-7{
-    margin-left: 70px;
-    width:450px;
-
+.well, .well-lg{
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#0A79C7, #85C5F4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#0A79C7, #85C5F4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#0A79C7, #85C5F4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#0A79C7, #85C5F4); /* Standard syntax */
 }
+}
+
