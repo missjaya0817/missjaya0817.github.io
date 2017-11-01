@@ -1,5 +1,5 @@
 * {
-    border-radius: 0 !important;
+    border-radius: 0;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -46,6 +46,7 @@ ul.square {
 }
 ul.square li {
     list-style: square;
+    font-weight: 300;
 }
 p {
     margin-bottom: 20px;
@@ -193,8 +194,10 @@ pre {
     margin-top: 20px;
 }
 .well-lg{
-    padding-top: 40px;
+    padding-top: 60px;
     margin-top: 20px;
+    height: 100%;
+    border-radius: 0px !important;
 }
 .navbar{
     min-height: 30px;
@@ -204,14 +207,50 @@ pre {
     width:90%;
 }
 
+p{
+    hyphens: none!important;
+}
+
+.pro-w{
+    background: white
+}
+
+.pro-g{
+    background: #EDEDED;
+}
 
 
 
+.projectcontent.container{
+    padding-left:0px;
+    margin-left:0px; 
+}
 
 
+h4{
+    font-weight: 200;
+    padding-bottom: 15px;
+}
 
 
+p.tablecontent{
+    font-weight: 300;
+}
 
+.noteinproject{
+    background: #D4D3D5;
+}
+
+h2.alipay{
+    color:#0A58C0;
+    font-weight: 900;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+h2.about{
+    margin-top: 0px;
+}
 
 
 

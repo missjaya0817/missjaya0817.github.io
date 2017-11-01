@@ -4,10 +4,10 @@ body {
     font-weight: 400;
     line-height: 32px;
     -webkit-font-smoothing: antialiased;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
     -moz-font-feature-settings: "liga=1, dlig=1";
     -ms-font-feature-settings: "liga", "dlig";
     -webkit-font-feature-settings: "liga", "dlig";
@@ -92,7 +92,7 @@ h2,
     font-size: 32px;
     line-height: 48px;
     position: relative;
-    margin-top: 80px;
+    margin-top: 40px;
     margin-bottom: 48px;
 }
 
@@ -186,7 +186,7 @@ h3 {
 }
 .space {
 /*     padding-bottom: 20px; */
-    padding-top: 204px;
+    padding-top: 20px;
 }
 
 /* SOCIAL ICONS
@@ -2063,7 +2063,7 @@ ul.dashed li{ text-indent:-5px; }
 .project-desc-wrap .lead {
     font-family: Arvo, serif;
     font-size: 20px;
-    margin-top: 32px;
+    margin-top: 40px;
     margin-bottom: 80px;
     line-height: 32px;
 }
@@ -2086,22 +2086,6 @@ ul.dashed li{ text-indent:-5px; }
     background-color: #FFA9AA;
 }
 
-.project-bg-3 {
-    background-color: #596F85;
-}
-
-.project-bg-4 {
-    background-color: #00C0A5;
-}
-
-.project-bg-5 {
-    background-color: #FAFAFA;
-}
-
-.project-bg-6 {
-    background-color: #FCD97B;
-}
-
 .project-bg-1 .learn-more a {
     color: #126376;    
 }
@@ -2111,33 +2095,8 @@ ul.dashed li{ text-indent:-5px; }
     color: #B95252;    
 }
 
-.project-bg-3 .learn-more a {
-    color: #BBDDFF;
-}
-
-.project-bg-4 .learn-more a {
-    color: #195D53;    
-}
-
-.project-bg-5 .learn-more a {
-    color: #25BD97;    
-}
-
-.project-bg-6 .learn-more a {
-    color: #866614;    
-}
-
-
 .project-item {
     color: #ffffff;
-}
-
-.project-bg-5 .project-item {
-    color: #464B52;
-}
-
-.project-bg-6 .project-item {
-    color: #3E3C2E;
 }
 
 .project-item .right-wrapper img {
@@ -2305,7 +2264,7 @@ ul.dashed li{ text-indent:-5px; }
     }
 
     .project-bg-1 {
-        height: 640px;
+        min-height: 960px;
     }
 
     .project-item .left-wrapper.col-sm-7 {
@@ -2416,12 +2375,186 @@ ul.dashed li{ text-indent:-5px; }
     width:550px;
 }
 
-.well, .well-lg{
-    background: red; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#0A79C7, #85C5F4); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#0A79C7, #85C5F4); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#0A79C7, #85C5F4); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#0A79C7, #85C5F4); /* Standard syntax */
+.well-lg.title{
+    background: #0A79C7; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#00008B, #00BFFF); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#00008B, #00BFFF); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#00008B, #00BFFF); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#00008B, #00BFFF); /* Standard syntax */
 }
+
+
+
+body.tablecontent{
+    padding: 80px 0;
+    font-weight: 300;
 }
+
+.well-lg.about{
+    background:#fff;
+}
+
+h2.about{
+    margin-top: 0px;
+}
+li.current{
+    color:#00008B;
+    font-weight: 900;
+}
+
+h5{
+    font-size: 22px;
+    font-weight: 400;
+    /*font-style: italic;*/
+}
+
+h2.visual-design{
+    margin-top: 30px;
+}
+.container.visual-design{
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+
+h2.alipay{
+    color:#0A58C0;
+    font-weight: 900;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+.subtitle{
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: 200;
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+
+h1.title{
+    font-size: 36px;
+    font-weight: 400;
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:white;
+}
+
+h3.alipay{
+    padding-bottom: 20px;
+}
+
+ul.alipay{
+    margin-top: 0px;
+}
+
+h4.alipay{
+    font-weight: 400;
+    padding-bottom: 0px;
+}
+
+.btn.viewdesign{
+    color:#fff;
+  border-color: #fff;
+  outline: none;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  border-radius: 50px;
+  border
+}
+
+
+.btn.viewdesign a{
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 16px;
+    /*font-weight: 300;*/
+
+    color:#fff;
+}
+
+
+
+    .btn.viewdesign:focus ,
+    .btn.viewdesign:visited
+{
+  color: #777777;
+  background:none;
+  border-color: #333333;
+  outline: none;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+
+ .btn.viewdesign:hover
+    {
+text-decoration: none;
+color: #000;
+background:none;
+font-weight:600;
+}
+h4.subtitle2{
+    padding-bottom: 0px;
+}
+p.subtitle2{
+    margin-top: 0px;
+}
+
+
+.btn.moredesign{
+    color:#454545;
+  border-color: #454545;
+  outline: none;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  border-radius: 50px;
+  border
+}
+.btn.moredesign a{
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 16px;
+    /*font-weight: 300;*/
+
+    color:#000;
+}
+
+
+
+    .btn.moredesign:focus ,
+    .btn.moredesign:visited
+{
+  color: #787878;
+  background:none;
+  border-color: #454545;
+  outline: none;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+
+ .btn.moredesign:hover
+    {
+text-decoration: none;
+color: #454545;
+background:none;
+font-weight:600;
+}
+
+#intro {
+    background: url("../images/Portfolio-Cover.png") center center no-repeat fixed;
+    background-size: cover;
+    min-height: 1000px;
+    width:100%;
+}
+
+
 
