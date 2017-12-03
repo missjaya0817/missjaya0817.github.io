@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Visual Design</title>
+    <title>Food Calendar</title>
     <!-- Mobile viewport optimized -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -10,14 +10,16 @@
     <meta http-equiv="cleartype" content="on">
 
     <!-- Le styles -->
-    <link href="css/bootswatch/Cosmo/bootstrap.min.css" rel="stylesheet">
-    <link href="css/jquery.tocify.css" rel="stylesheet">
-    <link href="css/prettify.css" rel="stylesheet" type="text/css">
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="css/rainbow/themes/tomorrow-night.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="css/rainbowlines/theme.css" media="screen" />
+    <link href="Projects/css/bootswatch/Cosmo/bootstrap.min.css" rel="stylesheet">
+    <link href="Projects/css/jquery.tocify.css" rel="stylesheet">
+    <link href="Projects/css/prettify.css" rel="stylesheet" type="text/css">
+    <link href="Projects/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="Projects/css/styles.css" rel="stylesheet" type="text/css">
+    <link href="Projects/css/style.css" rel="stylesheet" type="text/css">
+    <link href="Projects/css/rainbow/themes/tomorrow-night.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="Projects/css/rainbowlines/theme.css" media="screen" />
+    <link href="Projects/css/lightbox.css" rel="stylesheet" type="text/css">
+    <link href="Projects/css/lightbox.min.css" rel="stylesheet" type="text/css">
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -28,50 +30,47 @@
     <div class='wrapper'>
 
         <header id="header">
-        <div class="navbar-wrap">
-            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-                <div class="container">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
-                    <link rel="icon" href="images/favicon.png" type="image/png"/>
-                    <link rel="shortcut icon" href="images/favicon.png" type="image/png"/>
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="navigation">
-                        <div class="righ-side">
-                              <ul class="nav navbar-nav" id="top-nav-2">
-                                <li class="current"><a href="../index.html" id="ux-projects">Work</a></li>
-                                <!-- <li><a href="illustration.php">Visual</a></li>
-                                <li><a href="illustration.php">Space</a></li> -->
-                                <!-- <li><a href="illustration.php">Photography</a></li> -->
-                                <li><a href="about.php">About</a></li>
-                                <li><a href="Kejia-Shao-resume.pdf" target="_blank">Résumé</a></li>
-                            </ul>
-
+            <div class="navbar-wrap">
+                <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                    <div class="container">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <link rel="icon" href="images/favicon.png" type="image/png"/>
+                        <link rel="shortcut icon" href="images/favicon.png" type="image/png"/>
+                        <div class="collapse navbar-collapse" id="navigation">
+                            <div class="righ-side">
+                                  <ul class="nav navbar-nav" id="top-nav-2">
+                                    <li class="current"><a href="index.html" id="ux-projects">Product</a></li>
+                                    <li><a href="project5.html">Visual</a></li>
+                                    <li><a href="About.html">About</a></li>
+                                    <li><a href="images/Ru Jia_Resume_Fulltime.pdf" target="_blank">Résumé</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <!-- /.navbar-collapse -->
-                </div>
-                <!-- /.container-fluid -->
-            </nav>
-        </div>
-
+                </nav>
+            </div>
         </header>
     </div>
 
 
 
 
+
+
     <div class="container" id="container">
+
+    	 
         <div class="row">
 
-            <div class="tocify col-sm-3 col-md-3">
+            <div class="tocify col-sm-2 col-md-2">
                 <div id="toc">
                     <div class="copy">
                         <p>&copy; Ru Jia 2017 All rights reserved.</p>
@@ -79,85 +78,210 @@
                 </div>
             </div>
 
+
+
             
 
 
-            <div class="col-sm-9 col-md-9">
-                
-                <!-- <h2 class="fake">UX design</h2> -->
-                
-                <div class="well-lg">
+            <div class="col-sm-10 col-md-10">
+                <section class="well-lg title" >
+                    <div class="projectcontent container" style="padding-bottom: 20px;">
+                        
+                        <h1 class="title">Food Calendar</h1>
+                        <div class="subtitle" >Individual Project</div>
+
+                        <hr style="margin-top: 20px;margin-bottom: 20px;">
+
+                         <p>In reality, some people are too busy to think about how to eat healthily, and how to prepare healthy food efficiently. Food Calendar is a mobile app that helps busy people manage their diet and buy fresh food. It connects healthy menu and local grocery stores with a food calendar. Users can buy food online according to their customized food calendar quickly and easily</p>
+                                <div class="col-md-4" style="padding-top: 35px;padding-left: 0px">
+                                    <h5 style="margin-bottom: 10px;">
+                                        <b>Date</b>
+                                    </h5>
+                                    <p style="margin-bottom: 0px;margin-top: 5px;">Sep 2016<br> Dec 2016</p>   
+                                </div>
+
+                            <div class="col-md-4" style="padding-top: 35px;padding-left: 0px">
+                                <h5 style="margin-bottom: 10px;">
+                                    <b >Role</b>
+                                </h5>
+                                <p style="margin-bottom: 0px;margin-top: 5px;">UX/UI Designer</p>
+                               
+                            </div>
+                         
+
+                            <div class="col-md-4" style="padding-top: 35px;padding-left: 0px">
+                                <h5 style="margin-bottom: 10px;">
+                                    <b>Project Scope</b>
+                                </h5>
+                                <p style="margin-bottom: 0px;margin-top: 5px;">User Research, Prototyping, Usability Testing</p>
+                            </div>
+                    </div>
+                    <hr class="visual_hr">
+                    <hr class="visual_hr">
+                </section>
+
                     
-                    <!-- <span class="label label-default">UX Design</span> -->
-                    
-                    <h1>Visual Design</h1>
-                    <div class="h4">UX Design Intern Project</div>
-                    <hr class="grey">
-                    <p class="lead">RealPortfolio is unique portfolio template crafted for real world. This personal portfolio was created with people's real needs in mind focusing on content and UX. Flexible portfolio options will give you ability to represent your work in style whether you are a graphic designer, illustrator, web designer, whatever. Be personal!</p>
-                    <hr class="grey">
-                    <div class="h4">Features</div>
-                    
-                    <hr class="grey">
-                    
-                </div>
                 
+                
+                 <section class="pro-w" >
+                    <div class="container" style="padding-bottom: 20px;">
+                        <h2 class="alipay">Design Process</h2>
+                            
+                            <div class="container2 col-sm-12">
+                                <div class="container2 col-sm-7">
+                                    <h4>Divergent and Convergent Thinking</h4>
+                                    <p class="lead">I used divergent approach and convergent approach alternatively. At the early stage, diverging thinking to idea with breadth and quantities, find opportunities and problem space. After synthesis ideas, I used converging thinking to prioritize ideas and emphasize on selecting and refining prototypes, but also use divergent thinking to explore details design.</p>
+                                </div>
+                                <img class="right-wrapper col-sm-5" src="images/Project4/1.png" alt="LibraryCircle">
+                                <img class="right-wrapper col-sm-8" src="images/Project4/2.png" alt="LibraryCircle">
+                                <div class="container2 col-sm-4">
+                                    <h4>Iterative Design Thinking</h4>
+                                    <p class="lead">As the design requirement is broad, the iterative approach was also used at the early stage. It also allowed me to incorporate the feedback and learnings into the next iteration.</p>
+                                </div>
+                                
+
+                            </div>
+                        </div>
+                </section>
 
                 <hr>
-                <h2>Website Design</h2>
-                <img class="right-wrapper col-sm-12" src="img/Project1/AlipayChina.png" alt="Alipay China">
 
-                <!-- <img class="right-wrapper col-sm-12" src="img/Project1/AlipaySmartLife.png" alt="Alipay China"> -->
+                <section class="pro-w" >
+                    <div class="container" style="padding-bottom: 20px;">
+                        <h2 class="alipay">Problem</h2>
+                        <h4>Being busy makes life unhealthy and hard</h4>
+                        <img class="right-wrapper col-sm-12" src="images/Project4/3.png" alt="LibraryCircle">
+                        <ul class="lead col-sm-12">
+                            <li>When people are busy, they often have to eat out. The nutrition of the diet is unbalanced and it often costs far more than cooking by themselves. Being busy makes life unhealthy and costly.</li>
+                            <li>Some people like cooking by themselves even they are busy. However, they are still struggling with preparing food, including food purchase and look up recipes. Sometimes, it also causes large amounts of food waste.</li>
+                        </ul>
+                    </div>
+                </section>
+                <hr class="col-sm-12">
 
-
-                <img class="right-wrapper col-sm-12" src="img/Project1/AlipayGlobal.png" alt="Alipay China">
-
-                <P style="padding:10px;color:white">1</P>
-                
+                <section class="pro-w" >
+                    <div class="container" style="padding-bottom: 20px;">
+                        <h2 class="alipay">Solution Overview</h2>
+                        <img class="right-wrapper col-sm-12" src="images/Project4/4.png" alt="LibraryCircle">
+                    </div>
+                </section>
                 <hr>
-                <h2>Poster Design</h2>
-                <p>This template uses powerfull <a href="http://scriptpie.com/cubeportfolio/live-preview/" target="_blank">Cube Portfolio</a> plugin. You can play with JS settings at the bottom of the page.</p>
-                
+
+                <section class="pro-w" >
+                    <div class="container" style="padding-bottom: 20px;">
+                        <h2>Problem Define</h2> 
+                            <h5 class="col-sm-12">Initial Idea –– Solve Obesity Problem</h5>
+                            <p class="lead col-sm-7">The topic of this course is to design a system that supports an activity or a relationship within the particular local context. Initially, I planned to solve problems about obesity. I planned to use technology to connect local community and help people get rid of obesity problem.</p>
+                            <img class="right-wrapper col-sm-5" style="padding-top: 20px;" src="images/Project4/5.png" alt="FoodCalendar">
+                          
+                            <h5 class="col-sm-12">Brainstorming Opportunities</h5>
+                                <div class="container2 col-sm-12">
+                                    <p class="lead col-sm-12">Then I think about three aspects about obesity problem: the factors, potential target groups, and stakeholders. "Obesity Factor" and "potential target groups" are important to analyze human activities, and "stakeholders" are people or organization that could possibly build connection and provide support.</p>
+                                </div>
+                                <img class="right-wrapper col-sm-12"  src="images/Project4/6.png" alt="LibraryCircle">
+
+                            <h5 class="col-sm-12">Find Relations Between Specific Problems</h5>
+                            <P class="col-sm-12">Changing overweight problem to "healthy diet problem"</P>
+                            <p class="lead col-sm-7">The topic of this course is to design a system that supports an activity or a relationship within the particular local context. Initially, I planned to solve problems about obesity. I planned to use technology to connect local community and help people get rid of obesity problem.</p>
+                            <img class="right-wrapper col-sm-5" style="padding-top: 20px;" src="images/Project4/7.png" alt="FoodCalendar">
+
+                            <h5 class="col-sm-12">Personas</h5>
+                            <img class="right-wrapper col-sm-12" style="padding-top: 20px;" src="images/Project4/8.png" alt="FoodCalendar">
+                            
+                              <hr class="visual_hr col-sm-12">
+                             <!-- <h5 class="col-sm-12">2.Privacy Concern</h5> -->
+                        </div> 
+                 </section>
+                 <hr class="col-sm-12">
+
+                 
+                 <section class="pro-w" >
+                    <div class="container" style="padding-bottom: 20px;">
+                        <h2>Project Goal</h2>
+                        <h4>Make busy life easier and healthier</h4>  
+                        <img class="example-image right-wrapper col-sm-12" src="images/Project4/9.png" alt="Library Circle">
+                    </div>
+                </section>
+
+                <section class="pro-w" >
+                    <div class="container" style="padding-bottom: 20px;">
+                        <h2>Prototype</h2>
+                        <h4>Paper Prototyping</h4>  
+                        <img class="example-image right-wrapper col-sm-12" src="images/Project4/10.png" alt="FoodCalendar">
+                        <hr class="visual_hr col-sm-12">
+                        <h4>Wireframe</h4>  
+                        <img class="example-image right-wrapper col-sm-12" src="images/Project4/11.png" alt="FoodCalendar">
+                        <hr class="visual_hr col-sm-12">
+                        <h4>Digital Prototype</h4> 
+                        <p>Main Function 1: Customize Food Calendar</p> 
+                        <img class="example-image right-wrapper col-sm-12" src="images/Project4/12.png" alt="FoodCalendar">
+                        <hr class="visual_hr col-sm-12">
+                        <p>Main Function 2: Shopping according to food calendar</p>  
+                        <img class="example-image right-wrapper col-sm-12" src="images/Project4/13.png" alt="FoodCalendar">
+                        <hr class="visual_hr col-sm-12">
+                    </div>
+                </section>
+                <hr>
+
+                <section class="pro-w" >
+                    <div class="container" style="padding-bottom: 20px;">
+                        <h2>Style Guide</h2> 
+                        <img class="example-image right-wrapper col-sm-12" src="images/Project4/14.png" alt="FoodCalendar">
+                    </div>
+                </section>
+                <hr>
+
+                <section class="pro-w" >
+                    <div class="container" style="padding-bottom: 20px;">
+                        <h2>Final Design</h2> 
+                        <img class="example-image right-wrapper col-sm-6" src="images/Project4/interaction.gif" alt="FoodCalendar">
+                    </div>
+                </section>
+                <hr>
 
 
-                
 
-                <hr>
-                <h2>Infographic Design</h2>
-                <p>Smart life is a lifestyle that connects the online world and the real world seamlessly via the mobile internet, cloud computing, and other advanced technologies resulting in the free flow of information, materials, and capital across time and space, resulting in daily life becoming richer and more convenient.</p>
-                
-                <p class="well"><span class="note"><strong>Note: </strong> This section uses <a href="https://maxwellito.github.io/vivus/" target="_blank">vivus</a> plugin to animate the logo strokes and it works only for strokes. Rotation and other parts are done in CSS and JS.</span></p>
-                
 
-                
-                <hr>
-                <h2>Photography</h2>
-                <p>Smart life is a lifestyle that connects the online world and the real world seamlessly via the mobile internet, cloud computing, and other advanced technologies resulting in the free flow of information, materials, and capital across time and space, resulting in daily life becoming richer and more convenient.</p>
-                
-                <p class="well"><span class="note"><strong>Note: </strong> This section uses <a href="https://maxwellito.github.io/vivus/" target="_blank">vivus</a> plugin to animate the logo strokes and it works only for strokes. Rotation and other parts are done in CSS and JS.</span></p>
-                <hr>
-                <h3>Overview</h3>
-                <h3>Design-Research-Evaluation</h3>
-                <h3>Design Concepts</h3>
-                <h3>Design Decisions</h3>
-                
+                <section class="pro-w" >
+                    <div class="container" style="padding-bottom: 20px;">
+                        <h2>Evaluation</h2> 
+                        <h5>Why it solves the problem?</h5>
+                        <p class="lead">When I finished this project at the end of the first semester of HCI study, I thought I have successfully solve the problem I defined at the beginning of the semester. I tried to evaluate my solution by thinking about the goal of the product.</p>
 
-                
-                
-                
+                        <ul class="lead col-sm-6"><h4>How Easy it is</h4>
+                            <li>Busy People Like to Use Calendars to Manage Their Life</li>
+                            <li>No Need to Think About How to Eat Healthily</li>
+                            <li>No Need to Go Grocery Stores</li>
+                            <li>Less Waste Food</li>
+                            <li>Less Cost on Food</li>
+                        </ul>
+                        <ul class="lead col-sm-6"><h4>How Healthy It is</h4>
+                            <li>Specifically Designed Recipes for Busy People</li>
+                            <li>Personalized Diet Plan Based on Nutrition Balanced Menu</li>
+                            <li>Recording Nutrition Intake Automatically</li>
+                            <li>Health Tips for Busy Life</li>
+                            <li>Healthy Menu Consulting</li>
+                        </ul>
+                    </div>
+                </section>
                 <hr>
-                <h2>Quality Assuarance</h2>
-                <p>To change primary color find and replace color.</p>
-                <p class="well"><span class="note"><strong>Note: </strong> RealPortfolio uses Linearicons. See <a href="https://linearicons.com/free" target="_blank">full list</a> of available icons.</span></p>
-                
+
+
+                <section class="pro-w" >
+                    <div class="container" style="padding-bottom: 20px;">
+                        <h2>Reflection</h2> 
+                        <h5>Constrains – Lack of Research on Related Business </h5>
+                        <div class="col-sm-6">
+                            <p class="lead">This course project emphasize the design methods and ideation, but not user research and testing. This may cause problems in functionality, usability and desirability.</p>
+                            <p class="lead">If I have more time, I will refine my prototype and test it with real users. I will also research more about how related businesses interact with target users and how they use the tool to reach their business goal.</p>
+                        </div>
+                        <img class="example-image right-wrapper col-sm-6" src="images/Project4/15.png" alt="FoodCalendar">
+                    </div>
+                </section>
                 <hr>
-                <h2>My Impact</h2>
-                <p>To change primary color find and replace color.</p>
-                
-                <hr>
-                <h2>Reflection</h2>
-                <p>To change primary color find and replace color.</p>
-                
-            
+
+
+               
             </div>
         </div>
     </div>
@@ -167,7 +291,7 @@
 
 
 
-    <div class="footer-nav">
+<!--     <div class="footer-nav">
         <a href="#0" class="cd-top cd-is-visible cd-fade-out">Top</a>
         <div class="container" style="margin-bottom: 70px;">
             <div class="row actions">
@@ -181,82 +305,83 @@
             <div class="row" style="border-top: 1px #DEDEDE solid; border-bottom: 1px #DEDEDE solid; padding-top: 20px; padding-bottom: 20px;">
                 <a href="#0" class="cd-top cd-is-visible cd-fade-out">Top</a>
                 <div class="col-sm-1">
-                    <a href="myfab5.php">
-                        <div class="pj-name">MYFAB5</div>
-                        <div class="desc">website redesign</div>
+                    <a href="project1.html">
+                        <div class="pj-name">Alipay Cashless Week</div>
+                        <div class="desc">Internship</div>
                     </a>
                 </div>
                 <div class="col-sm-1">
-                    <a href="whirlpool.php">
-                        <div class="pj-name">WHIRLPOOL</div>
-                        <div class="desc">internship</div>
+                    <a href="project2.html">
+                        <div class="pj-name">Alipay Branding</div>
+                        <div class="desc">Internship</div>
                     </a>
                 </div>
                 <div class="col-sm-1">
-                    <a href="wecollabrify.php">
-                        <div class="pj-name">WECOLLABRIFY</div>
-                        <div class="desc">app redesign</div>
+                    <a href="project3.html">
+                        <div class="pj-name">Library Circle</div>
+                        <div class="desc">Service Design</div>
                     </a>
                 </div>
                 <div class="col-sm-1">
-                    <a href="daya.php">
-                        <div class="pj-name">DAYA</div>
-                        <div class="desc">CHI SDC</div>
+                    <a href="project4.html">
+                        <div class="pj-name">EMX System</div>
+                        <div class="desc">Website redesign</div>
                     </a>
                 </div>
                 <div class="col-sm-1">
-                    <a href="snowferret.php">
-                        <div class="pj-name">SNOWFERRET</div>
-                        <div class="desc">app design</div>
+                    <a href="project5.html">
+                        <div class="pj-name">Visual Design</div>
+                        <div class="desc">Work Collection</div>
                     </a>
                 </div>
                 <div class="col-sm-1">
-                    <a href="sportspal.php">
-                        <div class="pj-name">SPORTSPAL</div>
-                        <div class="desc">app design</div>
+                    <a href="project6.html">
+                        <div class="pj-name">Space Design</div>
+                        <div class="desc">Architecture</div>
                     </a>
                 </div>
                 <div class="col-sm-1">
-                    <a href="mcrunch.php">
-                        <div class="pj-name">TECH CRUNCH</div>
-                        <div class="desc">info vis</div>
+                    <a href="project7.html">
+                        <div class="pj-name">Photography</div>
+                        <div class="desc">Work Collection</div>
                     </a>
                 </div>
                 <div class="col-sm-1">
-                    <a href="tenki.php">
-                        <div class="pj-name">TENKI</div>
-                        <div class="desc">ambient</div>
+                    <a href="project8.html">
+                        <div class="pj-name">Food Calendar</div>
+                        <div class="desc">UX Design</div>
                     </a>
                 </div>
                 <div class="col-sm-1">
-                    <a href="old/sns.php">
-                        <div class="pj-name">RENREN.COM</div>
-                        <div class="desc">user research</div>
+                    <a href="project9.html">
+                        <div class="pj-name">Food Festival</div>
+                        <div class="desc">UX Consulting</div>
                     </a>
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/rainbow/rainbow.min.js"></script>
-    <script src="js/rainbow/language/generic.js"></script>
-    <script src="js/rainbow/language/html.js"></script>
-    <script src="js/rainbow/language/css.js"></script>
-    <script src="js/rainbow/language/javascript.js"></script>
-    <script src="js/rainbowlines/rainbow.linenumbers.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.tocify.min.js"></script>
-    <script src="js/prettify.js"></script>
+    <script src="Projects/js/rainbow/rainbow.min.js"></script>
+    <script src="Projects/js/rainbow/language/generic.js"></script>
+    <script src="Projects/js/rainbow/language/html.js"></script>
+    <script src="Projects/js/rainbow/language/css.js"></script>
+    <script src="Projects/js/rainbow/language/javascript.js"></script>
+    <script src="Projects/js/rainbowlines/rainbow.linenumbers.js"></script>
+    <script src="Projects/js/jquery.min.js"></script>
+    <script src="Projects/js/jquery-ui.min.js"></script>
+    <script src="Projects/js/bootstrap.min.js"></script>
+    <script src="Projects/js/jquery.tocify.min.js"></script>
+    <script src="Projects/js/prettify.js"></script>
+    <script src="Projects/js/lightbox.js"></script>
 
     <script>
         $(function() {
 
-          $("#toc").tocify({ selectors: "h2, h3, h4", scrollTo: 58, highlightOffset: 58, extendPage: false });
+          $("#toc").tocify({ selectors: "h2", scrollTo: 58, highlightOffset: 58, extendPage: false });
 
           prettyPrint();
 

@@ -118,7 +118,7 @@ h2::after {
   height: 18px;
   margin-left: -32px;
   margin-top: -12px;
-  background: url(/images/projects/sat/quote.png) no-repeat top left;;
+  /*background: url(/images/projects/sat/quote.png) no-repeat top left;;*/
   background-size: 23px;
 /*   margin-left: -100px; */
 /*   bottom: -20px; */
@@ -813,7 +813,7 @@ a.logo:hover {
 /* EXTRA INFO SECTION
    ================================================== */
 
-#extra-info {
+/*#extra-info {
     background: #26292a url("http://placehold.it/1920x600");
     outline: 1px dashed #4B4846;
     outline-offset: -6px;
@@ -828,7 +828,7 @@ a.logo:hover {
     top: 0;
     bottom: 0;
     background: rgba(33, 33, 39, 0.96) url("../images/dot.png");
-}
+}*/
 #extra-info h1 {
     margin-top: 0;
     color: #fff
@@ -950,7 +950,7 @@ color: #FFFFFF;
 /* FOOTER
    ================================================== */
 
-.footer-sat-bg {
+/*.footer-sat-bg {
     margin-top: 40px;
     background-color: #FFA9AA;
     width: 100%;
@@ -983,7 +983,7 @@ color: #FFFFFF;
 .footer-sat-bg:hover{
     opacity: 1;
 }
-
+*/
 
 .footer-ka-mobile-bg {
     margin-top: 40px;
@@ -1640,7 +1640,7 @@ textarea {
     position: relative;
 }
 
-.green-separator .bg-texture {
+/*.green-separator .bg-texture {
   background-image: url(../images/green-separator.png);
   height: 100%;
   width: 100%;
@@ -1648,7 +1648,7 @@ textarea {
   top: 0;
   left: 0;
   position: absolute;
-}
+}*/
 
 
 .green-separator h3 {
@@ -2055,7 +2055,7 @@ ul.dashed li{ text-indent:-5px; }
 
 .lead{
     font-size: 16px;
-    margin-top: 32px;
+    margin-top: 20px;
     margin-bottom: 32px;
     line-height: 32px;
 }
@@ -2238,14 +2238,6 @@ ul.dashed li{ text-indent:-5px; }
         width: 49.9%;
     }
 
-    #intro .container,
-    #projects .container {
-        width: 1280px;
-        margin: 0 auto;
-        padding-left: 0;
-        padding-right: 0;
-    }
-
     #intro .container .row,
     #projects .container .row {
         margin-left: 0;
@@ -2366,22 +2358,18 @@ ul.dashed li{ text-indent:-5px; }
     }
 
 }
-.container{
-    width:90%;
-}
-
 .project-item .right-wrapper{
     float:right;
     width:550px;
 }
 
-.well-lg.title{
-    background: #0A79C7; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#00008B, #00BFFF); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#00008B, #00BFFF); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#00008B, #00BFFF); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#00008B, #00BFFF); /* Standard syntax */
-}
+/*.well-lg.title{
+    background: #0A79C7; 
+    background: -webkit-linear-gradient(#00008B, #00BFFF); 
+    background: -o-linear-gradient(#00008B, #00BFFF); 
+    background: -moz-linear-gradient(#00008B, #00BFFF); 
+    background: linear-gradient(#00008B, #00BFFF);
+}*/
 
 
 
@@ -2411,23 +2399,20 @@ h5{
 h2.visual-design{
     margin-top: 30px;
 }
-.container.visual-design{
-    padding-left: 0px;
-    margin-left: 0px;
-}
 
 
-h2.alipay{
+
+/*h2.alipay{
     color:#0A58C0;
     font-weight: 900;
     padding-top: 30px;
     margin-top: 30px;
 }
-
+*/
 .subtitle{
     padding-top: 10px;
-    font-size: 25px;
-    font-weight: 200;
+    font-size: 24px;
+    font-weight: 300;
     font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-decoration: none;
 }
@@ -2436,7 +2421,6 @@ h1.title{
     font-size: 36px;
     font-weight: 400;
     font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color:white;
 }
 
 h3.alipay{
@@ -2549,12 +2533,93 @@ background:none;
 font-weight:600;
 }
 
-#intro {
+/*#intro {
     background: url("../images/Portfolio-Cover.png") center center no-repeat fixed;
     background-size: cover;
     min-height: 1000px;
     width:100%;
 }
+*/
+.example-image.right-wrapper{
+    padding: 0px;
+}
+
+.container2{
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 20px;
+}
+
+h2{
+    color:#000;
+    font-size:28px;
+    font-weight: 900;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 600;
+    color:#0A58C0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h4{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 800;
+    color:#4a4a4a;
+    line-height: 25px;
+    /*text-decoration: underline;*/
+
+}
+
+h5{margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color:#4a4a4a;
+
+}
+
+hr{
+    margin:80px 0 60px 0;
+    border:0px;
+    border-top: 0.5px solid #4a4a4a;
+}
+
+img{
+    display: block;
+}
 
 
+.shadow{
+    box-shadow: 0px 0px 36px lightgrey;
+}
+
+.visual_hr{
+    margin:40px 0 20px 0;
+    border:0px;
+    /*border-top: 0px solid #4a4a4a;*/
+}
+
+
+.container{
+    width:80%;
+}
+#intro .container,
+    #projects .container {
+        width: 1280px;
+        margin: 0 auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+.projectcontent.container{
+    width:100%;
+}
 
